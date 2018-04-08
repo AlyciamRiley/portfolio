@@ -8,6 +8,12 @@ Yellowish: ffffcc;
 
 ------Fonts----------
 */
+@font-face {
+    font-family: 'airstreamregular';
+    src: url('Airstream-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 @font-face {
     font-family: 'blackjack';
@@ -37,6 +43,27 @@ body {
 }
 
 
+h1 {
+    font-family: 'blackjack';
+    font-size: 7rem;
+    transform: rotate(-7deg);
+    line-height: -5rem;
+    text-align: left; 
+    letter-spacing: -.25rem;
+    color:#cc0000;
+    margin-top: -3.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-align: left;
+    /* transform: rotate(-7deg); */
+    letter-spacing: -.05rem;
+    /* padding-right: 3rem; */
+    margin-top: 1rem;
+    margin-left: 11rem;
+}
 
 h3 {
     font-size: 2.5rem;
