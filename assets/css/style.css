@@ -8,12 +8,6 @@ Yellowish: ffffcc;
 
 ------Fonts----------
 */
-@font-face {
-    font-family: 'airstreamregular';
-    src: url('Airstream-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 
 @font-face {
     font-family: 'blackjack';
@@ -26,6 +20,7 @@ Yellowish: ffffcc;
 
 * {
     box-sizing: border-box; 
+    width: 100%;
 }
 
 
@@ -34,30 +29,14 @@ body {
     font-family: 'Karma', serif;
     color: #979393;
     max-width: 100%;
-    background-color:#fdfdea;
+    background-color:#FFF;
     box-sizing: border-box;
+    background-image: url("../images/sidebar_transparent-small.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 
-h1 {
-    font-family: 'blackjack';
-    font-size: 7rem;
-    transform: rotate(-7deg);
-    line-height: -.5rem;
-    text-align: right; 
-    letter-spacing: -.25rem;
-    color:#cc0000;
-}
-
-h2 {
-    font-size: 1.5rem;
-    font-weight: bolder;
-    text-align: right;
-    transform: rotate(-7deg);
-    letter-spacing: -.05rem;
-    padding-right: 3rem;
-    margin-top: -1rem;
-}
 
 h3 {
     font-size: 2.5rem;
@@ -73,12 +52,14 @@ h4 {
 }
 
 .jumbotron {
-    width: 80%;
     height: 5rem;
+    width: 65rem;   
     text-align: left;
-    background-color:#fdfdea;
+    background: linear-gradient(to right, #fff ,  #339999);
+    /* background-color: #339999; */
     margin-bottom: 0px;
-    margin-left: 10rem;  
+    margin-left: 15rem;  
+    float: left;
 
 }
 
@@ -113,8 +94,9 @@ h4 {
 }
 
 #bio {
-    float: left;
+    float: right;
     margin-top: 6rem;
+    margin-left: 6rem;
 
 }
 #bioheader {
