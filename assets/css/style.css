@@ -29,7 +29,7 @@ Yellowish: ffffcc;
     width: 100%;
 }
 
-
+ 
 body {
     
     font-family: 'Karma', serif;
@@ -42,6 +42,12 @@ body {
     background-attachment: fixed;
 }
 
+.container{
+    margin-top: 3.5rem;
+    margin-left: 10rem;
+}
+
+
 
 h1 {
     font-family: 'blackjack';
@@ -49,9 +55,9 @@ h1 {
     transform: rotate(-7deg);
     line-height: -5rem;
     text-align: left; 
-    letter-spacing: -.25rem;
+    letter-spacing: -.35rem;
     color:#cc0000;
-    margin-top: -3.5rem;
+    margin-top: -4.0rem;
 }
 
 h2 {
@@ -78,16 +84,11 @@ h4 {
     word-wrap: break-word;
 }
 
-.jumbotron {
-    height: 5rem;
-    width: 65rem;   
-    text-align: left;
-    background: linear-gradient(to right, #fff ,  #339999);
-    /* background-color: #339999; */
-    margin-bottom: 0px;
-    margin-left: 15rem;  
-    float: left;
 
+.nav-container {
+    width: 40rem;
+    height: 5rem;
+    float: right;
 }
 
 #sidebar {
@@ -100,6 +101,8 @@ h4 {
     overflow: hidden;
     
 }
+
+
 
 #applications {
     
@@ -134,4 +137,5 @@ h4 {
     color:#cc0000;
     font-weight: 700;
 }
+
 
